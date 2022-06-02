@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.containerTestimonial {
+  background-color: rgba(121, 121, 121, 0.3);
+  padding: 1.2em;
+}
+.containerTestimonial .subtitle {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 0.4em;
+}
+.containerTestimonial .text {
+  text-align: center;
+  font-family: "Open Sans", Arial;
+  color: #797979;
+  margin-bottom: 3em;
+}
+.containerTestimonial #autoWidth {
+  list-style: none;
+  padding-top: 5em;
+  height: 310px !important;
+  width: 100%;
+}
+.containerTestimonial #autoWidth .testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  width: 450px;
+  background-color: #f6f6f7;
+  position: relative;
+  padding-top: 3.5em;
+}
+@media (max-width: 991px) {
+  .containerTestimonial #autoWidth .testimonial {
+    width: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .containerTestimonial #autoWidth .testimonial {
+    width: 300px;
+  }
+}
+.containerTestimonial #autoWidth .testimonial img {
+  position: absolute;
+  top: -33%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+.containerTestimonial #autoWidth .testimonial .userName {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #343a40;
+  margin-bottom: 0.5em;
+}
+.containerTestimonial #autoWidth .testimonial .textTestimonial {
+  font-size: 0.8rem;
+  font-family: "Open Sans", Arial;
+  color: #797979;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

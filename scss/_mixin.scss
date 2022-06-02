@@ -1,0 +1,13 @@
+@use './variables' as var;
+
+@mixin medium{
+    @media(max-width:var.$tablet){
+        @content;
+    }
+}
+
+@mixin litle{
+    @media(max-width:var.$movil){
+        @content;
+    }
+}
